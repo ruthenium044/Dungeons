@@ -142,7 +142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &268270004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -282,7 +282,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 150
+  orthographic size: 75
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -420,7 +420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1391477599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,9 +436,9 @@ MonoBehaviour:
   gridWidth: 100
   gridHeight: 100
   postionOffset: {x: -50, y: 0, z: 0}
-  seed: gay
-  useRandomSeed: 0
-  fillPercent: 6
+  seed: 
+  useRandomSeed: 1
+  fillPercent: 40
 --- !u!114 &1391477600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,8 +456,8 @@ MonoBehaviour:
   postionOffset: {x: 50, y: 0, z: 0}
   seed: gay
   useRandomSeed: 0
-  timesToSmooth: 1
-  randomFillPercent: 50
+  timesToSmooth: 6
+  randomFillPercent: 49
 --- !u!4 &1391477601
 Transform:
   m_ObjectHideFlags: 0
